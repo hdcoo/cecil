@@ -1,0 +1,24 @@
+{
+  "name": "@cecil/core",
+  "version": "0.0.0",
+  "description": "core of cecil",
+  "keywords": [
+    "config",
+    "custom"
+  ],
+  "author": "hdcoo <huangdc521@gmail.com>",
+  "homepage": "https://github.com/hdcoo/cecil#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdcoo/cecil.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hdcoo/cecil/issues"
+  }
+}
