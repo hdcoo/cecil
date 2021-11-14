@@ -9,16 +9,20 @@
   "author": "hdcoo <huangdc521@gmail.com>",
   "homepage": "https://github.com/hdcoo/cecil#readme",
   "license": "ISC",
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "files": [
-    "lib"
-  ],
+  "main": "dist/lib/index.js",
+  "module": "dist/es/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hdcoo/cecil.git"
   },
   "bugs": {
     "url": "https://github.com/hdcoo/cecil/issues"
+  },
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
   }
 }
